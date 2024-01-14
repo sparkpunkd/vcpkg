@@ -427,6 +427,12 @@
         "fribidi"
       ]
     },
+    "harfbuzz": {
+      "description": "Required for drawtext filter",
+      "dependencies": [
+        "harfbuzz"
+      ]
+    },
     "gpl": {
       "description": "Allow use of GPL code, the resulting libs and binaries will be under GPL"
     },
