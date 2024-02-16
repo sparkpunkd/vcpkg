@@ -544,7 +544,7 @@
       "dependencies": [
         "mfx-dispatch"
       ],
-      "platform": "!linux"
+      "supports": "!linux & !osx & !uwp"
     },
     "sdl2": {
       "description": "Sdl2 support",
