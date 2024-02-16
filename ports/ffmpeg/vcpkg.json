@@ -543,7 +543,8 @@
       "description": "Intel QSV Codec",
       "dependencies": [
         "mfx-dispatch"
-      ]
+      ],
+      "platform": "!linux"
     },
     "sdl2": {
       "description": "Sdl2 support",
