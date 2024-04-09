@@ -3,7 +3,6 @@ vcpkg_from_sourceforge(
     REPO lzmautils
     FILENAME "xz-5.4.4.tar.gz"
     SHA512 2e27d864c9f346e53afc549d7046385b5d35a749af15d84f69de14612657df2f0e2ce71d3be03d57adadf8fd28549ecf4ef1c214bdcd1f061b5a47239e0104e8
-    HEAD_REF master
     PATCHES
         fix_config_include.patch
         win_output_name.patch # Fix output name on Windows. Autotool build does not generate lib prefixed libraries on windows. 
